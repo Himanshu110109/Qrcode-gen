@@ -2,7 +2,6 @@
 const QRCode = require("qrcode");
 const inquirer = require("inquirer").default;
 const fs = require("fs");
-const terminalImage = require("terminal-image").default;
 const chalk = require("chalk").default;
 
 async function generateQR(text){
