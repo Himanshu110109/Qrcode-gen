@@ -1,0 +1,30 @@
+{
+  "name": "text-to-qr",
+  "version": "1.0.0",
+  "description": "An npm package to generate qrcode.",
+  "main": "index.js",
+  "bin": {
+    "generate-qr": "./index.js"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Himanshu110109/Qrcode-gen.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Himanshu chandani",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Himanshu110109/Qrcode-gen/issues"
+  },
+  "homepage": "https://github.com/Himanshu110109/Qrcode-gen#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^12.4.2",
+    "qrcode": "^1.5.4"
+  }
+}
