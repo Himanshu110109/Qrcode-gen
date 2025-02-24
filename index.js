@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const QRCode = require("qrcode");
 const inquirer = require("inquirer").default;
 const fs = require("fs");
